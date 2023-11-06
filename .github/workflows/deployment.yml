@@ -1,6 +1,6 @@
 
 
-name: Java CI with Maven
+name: Github actions sample workflow
 
 on:
   push:
