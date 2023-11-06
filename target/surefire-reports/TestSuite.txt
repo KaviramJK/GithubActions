@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 51.592 s <<< FAILURE! - in TestSuite
+runScenario(runner.TestRunner)  Time elapsed: 36.377 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 119.0.6045.105 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+Build info: version: '4.0.0-beta-2', revision: '4ec0cfc112'
+System info: host: 'Kavirams-MacBook-Pro.local', ip: 'fe80:0:0:0:10f9:b3c5:71d1:f86e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.1', java.version: '1.8.0_351'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {desiredCapabilities=Capabilities {browserName: chrome}}]
+Capabilities {}
+
+runScenario(runner.TestRunner)  Time elapsed: 1.196 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 119.0.6045.105 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+Build info: version: '4.0.0-beta-2', revision: '4ec0cfc112'
+System info: host: 'Kavirams-MacBook-Pro.local', ip: 'fe80:0:0:0:10f9:b3c5:71d1:f86e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.1', java.version: '1.8.0_351'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {desiredCapabilities=Capabilities {browserName: chrome}}]
+Capabilities {}
+
